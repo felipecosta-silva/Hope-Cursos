@@ -12,6 +12,7 @@
   <meta name="keywords" content="Cursos, portal de cursos, cursos de tecnologia, cursos de programação">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style-site.css">
+  <link rel="stylesheet" href="css/style-padrao.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <title>Portal Q-Cusos</title>
 </head>
@@ -19,20 +20,68 @@
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a href="#page-top" class="navbar-brand js-scroll-trigger">Portal Q-Cursos</a>
-      <button class="navbar-toggler nabvbar-toggler-right" type="button" data-toogle="collapse" data-target="#navbarResponsive" arial-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fas fa-bars"></i></button>
+      <a href="#page-top" class="navbar-brand js-scroll-trigger"><img src="img/logo-qcursos.png" class="img_logo" alt="Logo"><span class="texto_logo">Q-Cursos</span></a>
+      <button class="navbar-toggler nabvbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" arial-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fas fa-bars"></i></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li></li>
+        <ul class="navbar-nav text-uppercase ml-auto textos_menu">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#formacoes">Formações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cursos">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#q-cursos">Q-Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#alunos">Alunos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
+          </li>
         </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-light my-2 my-sm-0 botao_buscar" type="submit"><i class="fas fa-search "></i></button>
+        </form>
       </div>
     </div>
   </nav>
+  
+<!-- CABEÇALHO -->
+ 
+ <header class="cabecalho">
+   <div class="container">
+     <div class="intro-text">
+       <div class="intro-lead-in">
+         Bem Vindo a Q-Cursos
+       </div>
+       <div class="intro-heading text-uppercase">
+         Ensino a Distância
+       </div>
+       <a class="btn btn-primary btn-xl text-uppercase js-scrool-trigger" href="#cursos">Nossos Cursos</a>
+     </div>
+   </div>
+ </header>
+ 
+<!-- Formações -->
+ 
+ <section class="page-section" id="formacoes">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12 text-center">
+         <h2 class="section-heading text-uppercase">Formações</h2>
+         <h3 class="section-subheading text-muted">Nossas principais Formações</h3>
+       </div>
+     </div>
+   </div>
+ </section>
+  
 </body>
 
 </html>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
