@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- A descrição é  mesma que mostra na página do google ao pesquisar algum site-->
-  <meta name="description" content="Portal de ensino Q-Cursos NetWorks. Participe das nossas formações e seja um profissional reconhecido no mercado de trabalho!">
-  <!-- Em AUtores seria interessant colocar os nomes dos professores para o caso de alguém procurar ao relacionádo  um professor específico-->
-  <meta name="author" content="Profª....">
-  <!-- Keyworks vai as palavras chaves-->
-  <meta name="keywords" content="Cursos, portal de cursos, cursos de tecnologia, cursos de programação">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style-site.css">
-  <link rel="stylesheet" href="css/style-padrao.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-  <title>Portal Q-Cusos</title>
-</head>
+<?php
+include_once("cabecalho.php")
+?>
 
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -37,11 +22,14 @@
             <a class="nav-link js-scroll-trigger" href="#alunos">Alunos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
+            <a class="nav-link js-scroll-trigger" href="#contatos">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="login.html" target="_blank">login</a>
           </li>
         </ul>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquise o curso desejado" aria-label="Pesquisar">
           <button class="btn btn-outline-light my-2 my-sm-0 botao_buscar" type="submit"><i class="fas fa-search "></i></button>
         </form>
       </div>
@@ -300,8 +288,189 @@
       </div>
     </div>
   </section>
+  
+  <!-- ALUNOS -->
+  <section class="bg-light page-section" id="alunos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Depoimentos</h2>
+          <h3 class="section-subheading text-muted">Alguns alunos formados na Q-Cursos</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/1.jpg" alt="">
+            <h4>Marcela Campos</h4>
+            <p class="text-muted">Desenvolvedora WEB</p>
+            <p class="text-muted"><small>"Cursos 100% atualizados e com um excelente suporte, a melhor escola de ensino EAD."</small></p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/2.jpg" alt="">
+            <h4>Marcos Santos</h4>
+            <p class="text-muted">Programador WEB</p>
+            <p class="text-muted"><small>"Cursos 100% atualizados e com um excelente suporte, a melhor escola de ensino EAD."</small></p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/3.jpg" alt="">
+            <h4>Carla Silva</h4>
+            <p class="text-muted">Desenvolvedora de Aplicativos</p>
+            <p class="text-muted"><small>"Cursos 100% atualizados e com um excelente suporte, a melhor escola de ensino EAD."</small></p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Contatos -->
+  <section class="page-section" id="contatos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Contate-nos</h2>
+          <h3 class="section-subheading text-muted text-primary">Em caso de dúvidas preencha abaixo!!</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" id="nome" type="text" placeholder="Seu Nome *" required="required" data-validation-required-message="Preencha seu nome.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Seu Email *" required="required" data-validation-required-message="Preencha seu Email!">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="telefone" type="tel" placeholder="(xx) x xxxx-xxxx">
+                 
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" id="mensagem" placeholder="Sua Mensagem *" required="required" data-validation-required-message="Entre com a Mensagem!!"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button id="" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright"><i class="far fa-envelope mr-1"></i>qcursos@treinamentoweb.com</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Hugo Vasconcelos</a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-muted" href="http://api.whatsapp.com/send?1=pt_BR&phone=5581999999999" alt="81 99999-9999" target="_blank"><i class="fab fa-whatsapp mr-1"></i>81 99999-9999</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-</body></html>
+</body>
+</html>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
