@@ -2,39 +2,6 @@
 include_once("cabecalho.php")
 ?>
 
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a href="#page-top" class="navbar-brand js-scroll-trigger"><img src="img/logo-qcursos.png" class="img_logo" alt="Logo"><span class="texto_logo">Q-Cursos</span></a>
-      <button class="navbar-toggler nabvbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" arial-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fas fa-bars"></i></button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto textos_menu">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#formacoes">Formações</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#cursos">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#q-cursos">Q-Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#alunos">Alunos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contatos">Contato</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="login.html" target="_blank">login</a>
-          </li>
-        </ul>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquise o curso desejado" aria-label="Pesquisar">
-          <button class="btn btn-outline-light my-2 my-sm-0 botao_buscar" type="submit"><i class="fas fa-search "></i></button>
-        </form>
-      </div>
-    </div>
-  </nav>
 
   <!-- CABEÇALHO -->
 
