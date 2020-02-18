@@ -3,12 +3,17 @@ include_once("cabecalho.php")
 ?>
 
 
+
 <!-- CABEÇALHO -->
 <header class="cabecalho">
   <div class="container">
     <div class="intro-text">
       <div class="intro-lead-in">
         Bem Vindo a Q-Cursos
+      </div>
+      <div class="intro-heading text-uppercase">
+        Ensino a Distância
+      </div>
       </div>
       <div class="intro-heading text-uppercase">
         Ensino a Distância
@@ -25,6 +30,19 @@ include_once("cabecalho.php")
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Principais Formações</h2>
         <h3 class="section-subheading text-muted"><a class="text-muted" href="#">Ver todas as demais Formações</a></h3>
+  <!-- CABEÇALHO -->
+
+  <header class="cabecalho">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">
+          Bem Vindo a Q-Cursos
+        </div>
+        <div class="intro-heading text-uppercase">
+          Ensino a Distância
+        </div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scrool-trigger" href="#cursos">Nossos Cursos</a>
+
       </div>
     </div>
     <div class="row text-center">
