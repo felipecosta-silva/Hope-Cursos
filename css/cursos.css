@@ -1,14 +1,15 @@
 
 #cursosPage .cursos-item{
 right:0;
-margin:0 0 15px
+margin:0 0 15px;
 }
 
 #cursosPage .cursos-item .cursos-link{
 	position:relative;
 	display:block;
 	max-width:400px;
-	margin:0 auto;cursor:pointer
+	margin:0 auto;
+	cursor:pointer;
 	}
 
 #cursosPage .cursos-item .cursos-link .cursos-hover{
@@ -17,11 +18,11 @@ margin:0 0 15px
 	height:100%;
 	transition:all ease .5s;
 	opacity:0;
-	background:rgba(254,209,54,.9)
+	background:rgba(254,209,54,.9);
 	}
 
 #cursosPage .cursos-item .cursos-link .cursos-hover:hover{
-	opacity:0.6
+	opacity:0.6;
 	}
 
 #cursosPage .cursos-item .cursos-link .cursos-hover .cursos-hover-content{
@@ -32,15 +33,17 @@ margin:0 0 15px
 	height:20px;
 	margin-top:-12px;
 	text-align:center;
-	color:#fff
+	color:#fff;
+}
 
-}#cursosPage .cursos-item .cursos-link .cursos-hover .cursos-hover-content i{
+#cursosPage .cursos-item .cursos-link .cursos-hover .cursos-hover-content i{
 margin-top:-12px
 }
 
-#cursosPage .cursos-item .cursos-link .cursos-hover .cursos-hover-content h3,#cursos .cursos-item .cursos-link .cursos-hover .cursos-hover-content h4{
+#cursosPage .cursos-item .cursos-link .cursos-hover .cursos-hover-content h3,
+#cursos .cursos-item .cursos-link .cursos-hover .cursos-hover-content h4{
 	margin:0
-	}
+}
 
 #cursosPage .cursos-item .cursos-caption{
 	max-width:400px;
@@ -50,7 +53,7 @@ margin-top:-12px
   background-color:#fff;
   text-decoration: none!important;
   color: black !important;
-	}
+}
 
 .title-curso {
   text-decoration: none!important;
@@ -60,7 +63,13 @@ margin-top:-12px
 #cursosPage .cursos-item .cursos-caption h3,h4,h5{
 	margin:0;
 	text-transform:none;
-	}
+	text-align:center;background-color:#fff;
+}
+
+#cursosPage .cursos-item .cursos-caption h3,h4,h5{
+	margin:0;
+	text-transform:none
+}
 
 
 
