@@ -46,6 +46,7 @@ margin-top:-12px
 	max-width:400px;
 	margin:0 auto;
 	padding:25px;
+<<<<<<< HEAD
 	text-align:center;
   background-color:#fff;
   text-decoration: none!important;
@@ -60,6 +61,15 @@ margin-top:-12px
 #cursosPage .cursos-item .cursos-caption h3,h4,h5{
 	margin:0;
 	text-transform:none;
+=======
+	text-align:center;background-color:#fff
+	}
+
+#cursosPage .cursos-item .cursos-caption h3,h4,h5{
+	margin:0;
+	text-transform:none
+
+>>>>>>> 53f9b8795391b65160b6989eeb33b4d7b703b099
 	}
 
 
