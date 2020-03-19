@@ -13,8 +13,8 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
-	<link rel="stylesheet" href="css/estilos-site.css">
-	<link rel="stylesheet" href="css/estilos-padrao.css">
+	<link rel="stylesheet" href="css/style-site.css">
+	<link rel="stylesheet" href="css/style-padrao.css">
 	<link rel="stylesheet" href="css/cursos.css">
 
 
