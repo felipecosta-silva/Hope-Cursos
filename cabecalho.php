@@ -37,7 +37,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<div class="container">
 		<a class="navbar-brand js-scroll-trigger" href="index.php#page-top">
-		<img src="img/logo-qcursos.png" class="img_logo"> <span class="texto-logo">Q-Cursos</span></a>
+		<img src="img/logo-hcursos" class="img_logo"> <span class="texto-logo">Hope-Cursos</span></a>
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" arial-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
 			Menu <i class="fas fa-bars"></i>
 	    </button>
@@ -50,7 +50,7 @@
 	    			<a class="nav-link js-scroll-trigger" href="index.php#cursos">Cursos</a>
 	    		</li>
 	    		<li class="nav-item">
-	    			<a class="nav-link js-scroll-trigger" href="index.php#qcursos">Q-Cursos</a>
+	    			<a class="nav-link js-scroll-trigger" href="index.php#hopecursos">Hope-Cursos</a>
 	    		</li>
 	    		<li class="nav-item">
 	    			<a class="nav-link js-scroll-trigger" href="index.php#alunos">Alunos</a>

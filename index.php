@@ -8,7 +8,7 @@ include_once("cabecalho.php")
   <div class="container">
     <div class="intro-text">
       <div class="intro-lead-in">
-        Bem Vindo a Q-Cursos
+        Bem Vindo a Hope-Cursos
       </div>
       <div class="intro-heading text-uppercase">
         Ensino a Distância
@@ -34,15 +34,15 @@ include_once("cabecalho.php")
           <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
         </span>
         <h4 class="titulo_formacao">Desenvolvedor WEB</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+        <p class="text-muted">Neste curso você aprenderá a desenvolver páginas web totalmente funcionais de forma simples e fácil.</p>
       </div>
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="titulo_formacao">Designer Gráfico</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
+        <h4 class="titulo_formacao">Web Design</h4>
+        <p class="text-muted">Neste curso você irá aprender e desenvolver suas habilidades com tecnicas avançadas de HTML e CSS, além de solidificar uma boa base da linguagem de programação Javascript.</p>
       </div>
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
@@ -50,33 +50,33 @@ include_once("cabecalho.php")
           <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
         </span>
         <h4 class="titulo_formacao">Desenvolvedor APP</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have </p>
+        <p class="text-muted">Este curso de desenvolvimento de Apps você vai aprender na prática como criar e programar seus aplicativos para Android, usando a linguagem Java.</p>
       </div>
     </div>
     <div class="row text-center mt-5">
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+          <i class="fas fa-microchip fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="titulo_formacao">Desenvolvedor WEB</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly.</p>
+        <h4 class="titulo_formacao">Informática Básica</h4>
+        <p class="text-muted">O objetivo principal deste curso é apresentar o que são os principais hardwares de um computador, principais sistemas operacionais e programas indispensáveis para o bom funcionamento do sistema.</p>
+      </div>
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-cubes fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="titulo_formacao">Lógica de Programação</h4>
+        <p class="text-muted">Este é o primeiro degrau para quem deseja ingressar no mundo do TI/desenvolvimento. E não estou brincando quando falo que você utiliza a lógica para tudo em seu dia-a-dia. Quando prepara o seu café, quando você vai à escola e até para investir em um curso você utiliza lógica. Venha conosco e entenda sobre o que estamos falando.</p>
       </div>
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="titulo_formacao">Designer Gráfico</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-      </div>
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="titulo_formacao">Desenvolvedor APP</h4>
-        <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+        <h4 class="titulo_formacao">HTML e CSS</h4>
+        <p class="text-muted">Aprenda HTML e CSS de maneira pratica, simples e usando boas práticas da web, com métodos utilizado em projetos reais, estruturando seu código para legibilidade e layouts verdadeiramente interessantes, com uso de bibliotecas e ferramentas.</p>
       </div>
     </div>
   </div>
@@ -195,7 +195,7 @@ include_once("cabecalho.php")
 </section>
 <!-- Fim área de cursos -->
 <!-- Escola de Cursos -->
-<section class="page-section" id="qcursos">
+<section class="page-section" id="hopecursos">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -399,7 +399,7 @@ include_once("cabecalho.php")
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-4">
-        <span class="copyright"><i class="far fa-envelope mr-1"></i>qcursos@treinamentoweb.com</span>
+        <span class="copyright"><i class="far fa-envelope mr-1"></i>hopecursos@treinamentoweb.com</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
@@ -426,7 +426,7 @@ include_once("cabecalho.php")
             <a href="#">Felipe Costa</a>
           </li>
           <li class="list-inline-item">
-            <a class="text-muted" href="http://api.whatsapp.com/send?1=pt_BR&phone=5581999999999" alt="81 99999-9999" target="_blank"><i class="fab fa-whatsapp mr-1"></i>81 9523-6005</a>
+            <a class="text-muted" href="http://api.whatsapp.com/send?1=pt_BR&phone=5581999999999" alt="81 99999-9999" target="_blank"><i class="fab fa-whatsapp mr-1"></i>81 99523-6005</a>
           </li>
         </ul>
       </div>
