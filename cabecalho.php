@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Portal de Cursos da Escola Q-Cursos Networks, Participe das nossas formações e seja um profissional reconhecido!!">
+	<meta name="description" content="Portal de Cursos da Escola Hope-Courses for world, Participe das nossas formações e seja um profissional reconhecido!!">
 	<meta name="author" content="Felipe Costa">
 	<meta name="keywords" content="cursos, portal de cursos, curso de tecnologia, cursos de programação, cursos online">
-	<title>Portal Q-Cursos</title>
+	<title>Hope Courses for World</title>
 
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -37,7 +37,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<div class="container">
 		<a class="navbar-brand js-scroll-trigger" href="index.php#page-top">
-		<img src="img/logo-hcursos" class="img_logo"> <span class="texto-logo">Hope-Cursos</span></a>
+		<img src="img/logo-hcursos.png" class="img_logo"> <span class="texto-logo">Hope-Cursos</span></a>
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" arial-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
 			Menu <i class="fas fa-bars"></i>
 	    </button>

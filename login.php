@@ -14,7 +14,7 @@
       <div class="card_login">
         <div class="justify-content-center d-flex">
           <div class="area_logo">
-            <a href="index.html"><img class="logo_circular" src="img/logo.png" alt="Logo"></a>
+            <a href="index.html"><img class="logo_circular" src="img/logo-hcursos.png" alt="Logo"></a>
           </div>
         </div>
         <div class="justify-content-center d-flex form_login">

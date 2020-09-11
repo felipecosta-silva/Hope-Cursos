@@ -10,10 +10,13 @@ include_once("cabecalho.php")
       <div class="intro-lead-in">
         Bem Vindo a Hope-Cursos
       </div>
-      <div class="intro-heading text-uppercase">
-        Ensino a Distância
+      <div class="slogan">
+        levando conehcimento a você
       </div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scrool-trigger" href="#cursos">Nossos Cursos</a>
+      <div class="intro-heading text-uppercase">
+        <!-- Ensino a Distância -->no conforto de sua casa
+      </div>
+      <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#cursos">Nossos Cursos</a>
     </div>
   </div>
 </header>
@@ -24,7 +27,7 @@ include_once("cabecalho.php")
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Principais Formações</h2>
-        <h3 class="section-subheading text-muted"><a class="text-muted" href="#">Ver todas as demais Formações</a></h3>
+        <h3 class="section-subheading text-muted"><a class="text-muted success" href="#">Ver todas as demais Formações</a></h3>
       </div>
     </div>
     <div class="row text-center">

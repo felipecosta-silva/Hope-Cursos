@@ -1,6 +1,6 @@
 body,
 html {
-  background: #60a3bc;
+  background: #61bd8a;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -31,7 +31,7 @@ input {
   height: 170px;
   width: 170px;
   border-radius: 50%;
-  background: #60a3bc;
+  background: #61bd8a;
   padding: 10px;
   text-align: center;
   top: -75px;
@@ -53,14 +53,14 @@ input {
 }
 
 .input-group-text {
-  background: #C0392b;
+  background: #4EB469;
   color: white;
   border: 0px;
   border-radius: 0.25rem 0 0 0.25rem!important;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-  background-color: #C0392B;
+  background-color: #4EB469;
 }
 
 .area_botao {
@@ -69,12 +69,12 @@ input {
 
 .btn_login {
   width: 100%;
-  background: #C0392b;
+  background: #4EB469;
   color: white;
 }
 
 .btn_login:hover {
-  background: #ab3326;
+  background: #178535;
 }
 
 .area_links {
